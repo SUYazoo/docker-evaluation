@@ -12,7 +12,7 @@ const MULT =
   process.env.MULT !== undefined ? new Boolean(process.env.MULT) : true
 const ADD = process.env.ADD !== undefined ? new Boolean(process.env.ADD) : true
 const app = express()
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 8080 || 8081 || 8082
 const ADDRESS =
   process.env.ADDRESS !== undefined
     ? process.env.ADDRESS
